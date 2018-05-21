@@ -23,5 +23,9 @@ int main() {
     printf("myUser.id=%d\n", myUser.id);
     printf("myUser.name=%s\n", myUser.name);
 
+    if (myUser.name == "Suzy Programmer") {
+        printf("Hello, %s!\n", myUser.name);
+    }
+
     return 0;
 }
